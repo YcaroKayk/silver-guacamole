@@ -1,7 +1,3 @@
-//Alunos:
-//  Ycaro Kayk Fernandes Ferreira dos Santos.
-//  Guilherme Neves Canedo.
-
 package com.example.test;
 
 import androidx.appcompat.app.AppCompatActivity;
