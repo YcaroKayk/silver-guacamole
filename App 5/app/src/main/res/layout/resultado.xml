@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Nm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="82dp"
+        android:text="Nome: "
+        />
+
+    <TextView
+        android:id="@+id/CPFm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="28dp"
+        android:text="CPF: "
+        android:layout_below="@+id/Nm"/>
+
+    <TextView
+        android:id="@+id/Nasc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="32dp"
+        android:text="Data de nascimento: "
+        android:layout_below="@+id/CPFm"/>
+
+    <TextView
+        android:id="@+id/Tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="33dp"
+        android:text="Telefone: "
+        android:layout_below="@+id/Nasc" />
+
+    <TextView
+        android:id="@+id/Cel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="38dp"
+        android:text="Celular: "
+        android:layout_below="@+id/Tel"/>
+
+    <TextView
+        android:id="@+id/Em"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="27dp"
+        android:text="Email"
+        android:layout_below="@+id/Cel"/>
+
+</RelativeLayout>
