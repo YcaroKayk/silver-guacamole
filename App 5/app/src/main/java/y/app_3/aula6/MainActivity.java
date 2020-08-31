@@ -1,6 +1,3 @@
-//Alunos:
-//  Guilherme Neves Canedo.
-//  Ycaro Kayk Fernandes Ferreira dos Santos.
 package y.app_3.aula6;
 
 import androidx.appcompat.app.AppCompatActivity;
